@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- ===== fav icon ====== -->
+		<link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png" />
+		<title>Intro with Dropdown Navigation</title>
+
+		<!-- ===== remix icons cdn ====== -->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+		<!-- ===== custom styles == -->
+		<link rel="stylesheet" href="./style.css" type="text/css" />
+
+		<!-- ====== custom scripts ===== -->
+		<script src="./main.js" defer type="text/javascript"></script>
+	</head>
+	<body>
+		<header class="primary-header">
+			<div class="primary-header__container container">
+				<!-- ====== left section ====== -->
+				<div class="primary-header__left">
+					<img src="./images/logo.svg" alt="Logo">
+
+					<!-- ====== navigation menu ======= -->
+					<nav class="primary-header__navigation-menu">
+						<!-- ===== navigation item 1 with dropdown ====== -->
+						<div class="primary-header__navigation-item">
+							<div class="primary-header__navigation-item-name">
+								Features<i class="ri-arrow-drop-down-line arrow"></i>
+							</div>
+
+							<!-- ======= dropdown menu ==== -->
+							<div class="primary-header__navigation-dropdown-menu">
+								<!-- ===== dropdown link 1 ==== -->
+								<div>
+									<img src="./images/icon-todo.svg" alt="">
+									<span class="primary-header__navigation-dropdown-name">
+										Todo List
+									</span>
+								</div>
+
+								<!-- ===== dropdown link 2 ==== -->
+								<div>
+									<img src="./images/icon-calendar.svg" alt="">
+									<span class="primary-header__navigation-dropdown-name">
+										Calendar
+									</span>
+								</div>
+
+								<!-- ===== dropdown link 3 ==== -->
+								<div>
+									<img src="./images/icon-reminders.svg" alt="">
+									<span class="primary-header__navigation-dropdown-name">
+										Reminders
+									</span>
+								</div>
+
+								<!-- ===== dropdown link 4 ==== -->
+								<div>
+									<img src="./images/icon-planning.svg" alt="">
+									<span class="primary-header__navigation-dropdown-name">
+										Planning
+									</span>
+								</div>
+							</div>
+						</div>
+
+						<!-- ===== navigation item 2 with dropdown ====== -->
+						<div class="primary-header__navigation-item">
+							<div class="primary-header__navigation-item-name">
+								Company<i class="ri-arrow-drop-down-line arrow"></i>
+							</div>
+
+							<!-- ======= dropdown menu ==== -->
+							<div class="primary-header__navigation-dropdown-menu">
+								<a href="#" class="primary-header__navigation-dropdown-name">History</a>
+								<a href="#" class="primary-header__navigation-dropdown-name">
+									Our Team
+								</a>
+								<a href="#" class="primary-header__navigation-dropdown-name">Blog</a>
+							</div>
+						</div>
+
+						<a href="#" class="primary-header__navigation-item-name">Careers</a>
+						<a href="#" class="primary-header__navigation-item-name">About</a>
+
+						<div class="primary-header__navigation-buttons">
+							<button type="button">Login</button>
+							<button type="button" class="button">Register</button>
+						</div>
+
+						<button type="button" class="close-menu-button">
+							<img src="./images/icon-close-menu.svg" alt="" class="close-menu-icon">
+						</button>
+					</nav>
+				</div>
+
+				<!-- ====== right section ====== -->
+				<div class="primary-header__right">
+					<div class="primary-header__right-buttons">
+						<button type="button">Login</button>
+						<button type="button" class="button">Register</button>
+					</div>
+
+					<button type="button" class="open-menu-button">
+						<img src="./images/icon-menu.svg" alt="" class="menu-icon">
+					</button>
+				</div>
+			</div>
+		</header>
+
+
+		<main>
+			<section class="hero">
+				<div class="hero__container container">
+					<!-- ====== column 1 === -->
+					<div class="column-1">
+						<h1 class="hero__title">Make remote work</h1>
+						<p>
+							Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+						</p>
+						<button type="button" class="button button--modified">Learn more</button>
+
+						<div class="logos">
+							<img src="./images/client-databiz.svg" alt="">
+							<img src="./images/client-audiophile.svg" alt="">
+							<img src="./images/client-meet.svg" alt="">
+							<img src="./images/client-maker.svg" alt="">
+						</div>
+					</div>
+
+					<!-- ====== column 2 ====== -->
+					<div>
+						<picture>
+							<source 
+								media="(max-width: 1020px)"
+								srcset="./images/image-hero-mobile.png"
+							>
+							<source
+								srcset="./images/image-hero-desktop.png"
+							>
+
+							<img src="./images/image-hero-mobile.png" alt="">
+						</picture>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
+
+<!--
+
+Get your team in sync, no matter your location. Streamline processes, 
+create team rituals, and watch productivity soar.
+
+Learn more -->
